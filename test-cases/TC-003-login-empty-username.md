@@ -1,25 +1,36 @@
 TC-003 — Login with Empty Username
-Test Case Information
+
+Test Case Information:
+
 Test Case ID: TC-003
+
 Title: Login with empty Username
+
 Module: Login
+
 Priority: High
+
 Test Type: Negative
-Preconditions
+
+Preconditions:
+
 The SauceDemo login page is open.
-Test Data
+Test Data:
 Username: Empty
 Password: secret_sauce
-Test Steps
+
+Test Steps:
 Leave the Username field empty.
 Enter secret_sauce in the Password field.
 Click the Login button.
-Expected Result
+
+Expected Result:
 The login attempt is rejected and a validation message indicates that the Username is required.
 
-Actual Result
+Actual Result:
 The login attempt was rejected and the application displayed the message “Username is required”.
 
-Status
+
+Status:
 PASS
 
